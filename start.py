@@ -1,3 +1,4 @@
+import subprocess
 import requests,json,os,sys,random,datetime,time,re,platform
 from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn,TimeElapsedColumn
 from concurrent.futures import ThreadPoolExecutor as tred
@@ -34,17 +35,30 @@ xxx = '\33[m'
 bul = '••••••••••••••••••••••••••••••••••••••'
 os.system('clear')
 print(f"""
-{xxx}Hello {hijo} Ardiyanta Saputro{xxx},Wellcome In
-{bira}╔════╦═╗╔═╦═══╦═══╗ 
-╚══╗═╠╗╚╝╔╣╔══╣╔═╗║
-──╔╝╔╝╚╗╔╝║╚══╣║─╚╝
-{hijo}─╔╝╔╝─╔╝╚╗║╔══╣║─╔╗
-╔╝═╚═╦╝╔╗╚╣║──║╚═╝║
-╚════╩═╝╚═╩╝──╚═══╝
-   {xxx} Aungthor By : {hijo}༶•┈┈⛧┈♛ {xxx}𝑍𝑒𝑛𝑖𝑥𝑥77{hijo} ♛┈⛧┈┈•༶ """)
-print(f"""{hijo}{bul}{xxx}
-1. crack friendlist  ({hijo} wajib public {xxx})      
-2. crack followers ({hijo} crack pengikut{xxx} )
-ketik {mer}logout {xxx}untuk menghapus cookie
-{hijo}{bul}""")
-ap = input(f'{hijo} question{xxx} : ')                              
+TOOL BY GustixaCB""")
+print(f"""
+SELECT METHODE EMAIL
+1. mail10minute    2. mailpedia
+          3. secmail""")
+an = input(f"{hijo}1/2/3/d {xxx}:")
+print(f"CHANGED TO {hijo}SECMAIL")
+print(f"\nGUNAKAN PASSWORD ACAK/MANUAL")
+k = input(f"Y/N : ")
+print(f"\n MEMAKAI USERNAME ACAK/MANUAL")
+ok = input(f"R/M : ")
+print(f"""
+STARTING{hijo}.....{xxx}
+
+[  server : nginx  ]
+>> EMAIL : numb9862@sec.mail
+>> PASSWORD : xjsofjo87jcoak@$
+>> USERNAME : Zahra Tusyifa
+
+[  server : nginx  ]
+>> EMAIL : numb99716@sec.mail
+>> PASSWORD : bowkgbxuam86#@
+>> USERNAME : Arindta Putrono
+
+[ {mer} 02 menit 05 detik{xxx} ]
+""")
+ok = input('')
